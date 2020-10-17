@@ -1,4 +1,4 @@
-
+#reversing a given array 
 def reverse(a):
     start=0
     end=len(a)-1
