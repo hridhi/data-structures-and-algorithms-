@@ -14,3 +14,4 @@ for i in range(t):
         print("Yes")
     # we can use some good operator and make it simple in time 
     #if l1&l2 == l2 : print ("Yes")
+    # and is possible for set so convert the list to set 
