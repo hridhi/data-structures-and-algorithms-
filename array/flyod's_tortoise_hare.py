@@ -3,7 +3,12 @@
 # we can sort the array and find the duplicate 
 #else you can make the numbers in the array as keys of the dictionary and then whose ever keys value is 2 that is the duplicate 
 #to get linear time complexity the elements should be stored in data structure so we can store it in a set , so if an element already in set then return it 
-
+def findDuplicate(self, nums: List[int]) -> int:
+        seen=set()
+        for num in nums:
+            if num in seen :
+               return num 
+            seen.add(num)
 #else we can use floyd's tortoise and hare cycle detection algorithm for the following problem 
 #this helps to detect the cycle by using 2 pointers tortoise and hare and where hare moves faster than tortoise
 def floyd_tor_hare(a):
