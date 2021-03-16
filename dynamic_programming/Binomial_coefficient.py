@@ -13,3 +13,10 @@ class Solution:
                     ans=(dp[i-1][j-1]%mod+dp[i-1][j]%mod)%mod
                     dp[i].append(ans)
         return dp[n-1][r]
+    
+    
+    
+    '''
+    FOR PERMUTATION COEFFICIENT 
+    P(n, k) = P(n-1, k) + k* P(n-1, k-1) 
+    '''
