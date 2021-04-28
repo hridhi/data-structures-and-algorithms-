@@ -13,3 +13,5 @@ class Solution:
             ans=max(ans,j-i+1)
             mapping[s[j]]=j+1
         return ans 
+#more similar problems 
+#https://leetcode.com/problemset/all/?topicSlugs=sliding-window
